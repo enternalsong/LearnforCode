@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="480.0" prefWidth="640.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label text="Match!!!">
+      <font>
+        <Font size="72.0" />
+      </font>
+    </Label>
+    <Button id="start" mnemonicParsing="false" prefHeight="36.0" prefWidth="614.0" text="Start">
+      <font>
+        <Font name="System Bold" size="32.0" fx:id="x1" />
+      </font>
+    </Button>
+    <Button id="exit" font="$x1" mnemonicParsing="false" prefHeight="36.0" prefWidth="614.0" text="Exit" />
+  </children>
+</VBox>
